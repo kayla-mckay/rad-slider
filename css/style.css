@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+#rad-slider{
+	width:960px;
+	position:relative;
+}
+#rad-slider .slide-details{
+	position:absolute;
+	width:33%;
+	height:330px;
+	background-color:rgba(0,0,0,.35);
+	top:0;
+	right:0;
+	color:white;
+}
+#rad-slider .slide-details h2 {
+	margin:20px;
+	font-size:2em;
+	line-height:1.2em;	
+}
+#rad-slider .slide-details p {
+	margin:20px;
+	font-size:1.5em;
+	line-height:1em;	
+}
+
+#rad-slider #next-slide{
+	position:absolute;
+	width:2%;
+	height:330px;
+	top:0;
+	right:0;
+	z-index:9999;
+	text-indent:-99999em;
+	cursor:pointer;	
+}
+#rad-slider #previous-slide{
+	position:absolute;
+	width:2%;
+	height:330px;
+	top:0;
+	right:left;
+	z-index:9999;
+	text-indent:-99999em;
+	cursor:pointer;			
+}
+#rad-slider #previous-slide:hover,
+#rad-slider #next-slide:hover{
+	background-color:black;	
+}
